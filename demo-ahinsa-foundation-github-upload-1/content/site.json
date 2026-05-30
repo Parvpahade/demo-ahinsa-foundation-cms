@@ -1,0 +1,44 @@
+{
+  "whatsappNumber": "918208931937",
+  "whatsappMessage": "Namaste Anju ji! I came across your Ahinsa Foundation website and would love to know more about your Reiki healing and classes.",
+  "images": {
+    "hero": "assets/images/anju-hero.jpg",
+    "about": "assets/images/anju-about.jpg",
+    "healing": "assets/images/healing-session.jpg",
+    "recognition": "assets/images/anju-recognition.jpg"
+  },
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=JoWwvw-50MU"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wRdPDCrSG6c"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Meera Sharma",
+      "city": "Indore",
+      "text": "After just a few sessions with Anju ji, years of anxiety simply melted away. I finally feel like myself again, lighter, calmer, whole.",
+      "textHi": "अंजू जी के साथ कुछ ही सेशन्स के बाद, सालों की ऐंग्जायटी जैसे पिघल गई। मैं फिर से खुद जैसा फील करती हूं, हल्का, शांत, पूरा।"
+    },
+    {
+      "name": "Priya Nair",
+      "city": "Dubai",
+      "text": "Her distance healing reached me across continents. I was sceptical at first. Now I recommend Ahinsa Divine Foundation to everyone I love.",
+      "textHi": "उनकी डिस्टेंस हीलिंग मुझे कॉन्टिनेंट्स के पार मिली। शुरू में मैं स्केप्टिकल थी, अब मैं Ahinsa Divine Foundation को अपने हर प्रिय व्यक्ति को रिकमेंड करती हूं।"
+    },
+    {
+      "name": "Rajesh Verma",
+      "city": "Pune",
+      "text": "I trained in Reiki under Anju's guidance and it changed my life. She teaches with such patience, warmth and grace.",
+      "textHi": "मैंने अंजू जी की गाइडेंस में रेकी सीखी और मेरी लाइफ बदल गई। वह इतने पेशेंस, वॉर्म्थ और ग्रेस के साथ सिखाती हैं।"
+    },
+    {
+      "name": "Sunita Joshi",
+      "city": "Bhopal",
+      "text": "The most caring, judgement-free space I have ever experienced. I leave every session feeling truly seen and deeply at peace.",
+      "textHi": "यह सबसे केयरिंग, जजमेंट-फ्री स्पेस है जो मैंने कभी एक्सपीरियंस किया। हर सेशन के बाद मैं सच में देखी-समझी गई और गहरी शांति में महसूस करती हूं।"
+    }
+  ]
+}

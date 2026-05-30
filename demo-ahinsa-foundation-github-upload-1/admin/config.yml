@@ -1,0 +1,52 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "site"
+    label: "Website Content"
+    files:
+      - name: "homepage"
+        label: "Homepage"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "WhatsApp Number"
+            name: "whatsappNumber"
+            widget: "string"
+            hint: "Use country code and digits only, for example 918208931937."
+          - label: "Default WhatsApp Message"
+            name: "whatsappMessage"
+            widget: "text"
+            required: false
+          - label: "Images"
+            name: "images"
+            widget: "object"
+            fields:
+              - { label: "Hero Image", name: "hero", widget: "image" }
+              - { label: "About Image", name: "about", widget: "image" }
+              - { label: "Healing Session Image", name: "healing", widget: "image" }
+              - { label: "Recognition Image", name: "recognition", widget: "image" }
+          - label: "YouTube Videos"
+            name: "videos"
+            widget: "list"
+            summary: "{{fields.url}}"
+            hint: "Paste any YouTube link. The site will turn it into a vertical thumbnail and inline player."
+            fields:
+              - { label: "YouTube URL", name: "url", widget: "string" }
+          - label: "Reviews"
+            name: "reviews"
+            widget: "list"
+            summary: "{{fields.name}} - {{fields.city}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "City", name: "city", widget: "string" }
+              - { label: "Review Text", name: "text", widget: "text" }
+              - label: "Hindi Review Text"
+                name: "textHi"
+                widget: "text"
+                required: false
+                hint: "Optional. If this is blank, the Hindi site will show the regular review text."
