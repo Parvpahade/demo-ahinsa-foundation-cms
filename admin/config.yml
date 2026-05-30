@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Parvpahade/demo-ahinsa-foundation-cms
   branch: main
 
 media_folder: "assets/images/uploads"
